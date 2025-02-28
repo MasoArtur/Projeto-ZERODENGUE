@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+body{
+    background-color: #4B685D;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    text-decoration: none;
+    text-transform: none;
+}
+
+button{
+    margin: 30px;
+    padding: 0px 18px;
+    text-transform: none;
+    text-decoration: none;
+    color: black;
+    font-family: "Inder", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px; 
+    border-radius: 16px;
+}
+
+.btn_cabecalho{
+    padding-right: 10px;
+    margin-right: 30px;
+}
+
+.quem-somos{
+    display: grid;
+    justify-content: space-around;
+    grid-column-end: span 3;
+}
+
+.titulo{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.quem-somos_separacao{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    justify-items: flex-start;
+}
+
+.quem-somos_paragrafo{
+    display: block;
+    padding: 40px 30px;
+    align-items: center;
+}
+
+.paragrafo{
+    padding-top: 40px;
+    padding-left: 30px;
+}
