@@ -4,26 +4,31 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>ZERODENGUE</title>
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./styles/index.css">
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap"
-            rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap"rel="stylesheet">
     </head>
     <body>
         <header>
-            <button class="btn_cabecalho">Campanha</button>
-            <button class="btn_cabecalho">Prevenção</button>
-            <button class="btn_cabecalho">Mapa</button>
-            <button class="btn_cabecalho">Quem Somos</button>
-            <button class="btn_cabecalho">Formulário</button>
+            <div class="btn_cabecalho">
+            <button id="btn_campanha">
+            <p class="text_btn">Campanha</p>
+            </button>
+            <button id="btn_prevencao">
+            <p class="text_btn">Prevenção</p>
+            </button>
+            <button id="btn_mapa">Mapa</button>
+            <button id="btn_quem_somos">Quem Somos</button>
+            <button id="btn_formulario">Formulário</button>
+            </div>
         </header>
         <main>
-            <section class="quem-somos">
+            <section id="quem-somos">
                 <h1 class="titulo">QUEM SOMOS</h1>
                 <div class="quem-somos_separacao">
-                    <img src="IMAGEM 1.png" class alt="todos contra a dengue">
+                    <img src="IMAGEM 1.png" id="quem-somos_img" alt="todos contra a dengue">
                     <div class="quem-somos_paragrafo">
                         <p class="paragrafo">SOMOS UM PROJETO QUE VISA AUMENTAR
                             A
@@ -36,6 +41,9 @@
                             POPULAÇÃO, AS ÁREAS DE RISCO E MAIS AFETADAS.</p>
                     </div>
                 </div>
+            </section>
+            <section>
+                <h1 class="titulo">FORMULÁRIO</h1>
             </section>
         </main>
     </body>

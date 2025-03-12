@@ -1,0 +1,45 @@
+@import url(./header.css);
+@import url(./quem_somos.css);
+@import url('https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+:root{
+    --fonteTexto:'https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap';
+}
+
+
+#quem-somos{
+    display: grid;
+    justify-content: space-around;
+    grid-column-end: span 3;
+}
+
+.titulo{
+    padding: 50px 0px;
+    text-align: center;
+}
+
+.quem-somos_separacao{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 40px;
+    justify-items: flex-start;
+}
+
+.quem-somos_paragrafo{
+    display: block;
+    padding: 40px 30px;
+    align-items: center;
+}
+
+.paragrafo{
+    padding-top: 40px;
+    padding-left: 100px;
+    font-weight: bold;
+    font-size: 27px;
+}
