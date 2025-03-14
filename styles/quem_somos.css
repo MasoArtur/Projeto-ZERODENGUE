@@ -1,12 +1,63 @@
-#quem_somos{
+#quem-somos{
     background-color: #4B685D;
-}
-
-body{
-    background-color: #4B685D;
+    padding-bottom: 100px;
 }
 
 #quem-somos_img{
-    padding-left: 100px;
+    padding-left: 290px;
     border-radius: 8px;
 }
+
+#quem-somos{
+    display: grid;
+    justify-content: space-around;
+    grid-column-end: span 3;
+}
+
+.titulo{
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 36px;
+    font-family: var(--fonteTitulo);
+}
+
+.quem-somos_separacao{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 30px;
+    justify-items: flex-start;
+}
+
+.quem-somos_paragrafo{
+    display: block;
+    margin-top: 50px;
+    padding-right: 300px;
+    align-items: center;
+    font-family: var(--fonteTexto);
+}
+
+.paragrafo1{
+    padding-top: 40px;
+    padding: 0px 120px;
+    margin: 30px 30px;
+
+    font-weight: bold;
+    font-size: 27px;
+    font-family: var(--fonteTexto);
+
+    color: #282626;
+}
+
+.paragrafo2{
+    padding-top: 40px;
+    padding: 0px 120px;
+    margin: 30px 30px;
+
+    font-weight: bold;
+    font-size: 27px;
+    font-family: var(--fonteTexto);
+
+    color: #282626;
+
+}
+

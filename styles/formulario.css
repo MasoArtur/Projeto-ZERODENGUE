@@ -1,0 +1,26 @@
+#formulario{
+    background-color: aliceblue;
+    align-items: center;
+}
+
+form{
+    display: table;
+}
+
+.name{
+    background-color: #599FAE;
+    display: table-row;
+    align-items: center;
+}
+
+#fname{
+    background-color: #599FAE;
+    color: #599FAE;
+    border: 8px;
+}
+
+label, input{
+    border-radius: 8px;
+    border: solid ;
+    font-size: 30px;
+}
