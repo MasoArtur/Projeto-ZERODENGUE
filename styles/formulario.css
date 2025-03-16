@@ -8,8 +8,14 @@
     align-items: center;
 }
 
-.titulo{
-    padding-bottom: 100px;
+.titulo_formulario{
+    padding-bottom: 5vh;
+    padding-top: 1.5vh;
+
+    font-size: 4.7vh;
+
+    text-align: center;
+    font-family: var(--fonteTitulo);
 }
 
 .name {

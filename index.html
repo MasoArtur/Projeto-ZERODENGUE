@@ -1,52 +1,51 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>ZERODENGUE</title>
-        <link rel="stylesheet" href="./styles/index.css">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap"rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <div class="btn_cabecalho">
-            <button id="btn_campanha">
-            <p class="text_btn">Campanha</p>
-            </button>
-            <button id="btn_prevencao">
-            <p class="text_btn">Prevenção</p>
-            </button>
-            <button id="btn_mapa">Mapa</button>
-            <button id="btn_quem_somos">Quem Somos</button>
-            <button id="btn_formulario">Formulário</button>
-            </div>
-        </header>
-        <main>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZERODENGUE</title>
+    <link rel="stylesheet" href="./styles/index.css">
 
-            <section id="quem-somos">
-                <h1 class="titulo">QUEM SOMOS</h1>
-                <div class="quem-somos_separacao">
-                    <img src="./assets/img/IMAGEM 1.png" id="quem-somos_img" alt="todos contra a dengue">
-                    <div class="quem-somos_paragrafo">
-                        <p class="paragrafo1">SOMOS UM PROJETO QUE VISA AUMENTAR
-                            A
-                            SEGURANÇA E BEM-ESTAR DA POPULAÇÃO DE FRANCISCO
-                            BELTRÃO
-                            UTILIZANDO INFORMAÇÕES E AS ENVIANDO PARA A
-                            PREFEITURA.
-                        </p>
-                        <p class="paragrafo2">MAS TAMBÉM MOSTRANDO PARA A
-                            POPULAÇÃO, AS ÁREAS DE RISCO E MAIS AFETADAS.</p>
-                    </div>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="headerR">
+        <div class="btn_cabecalho">
+            <button class="botoesHeader" id="btn_campanha">Campanha</button>
+            <button class="botoesHeader" id="btn_prevencao">Prevenção</button>
+            <button class="botoesHeader" id="btn_mapa">Mapa</button>
+            <button class="botoesHeader" id="btn_quem_somos">Quem Somos</button>
+            <button class="botoesHeader" id="btn_formulario"><a href="#formulario">Formulário<a></button>
+        </div>
+    </header>
+
+    <main>
+
+        <section id="quem-somos">
+            <h1 class="titulo_quem_somos">QUEM SOMOS</h1>
+            <div class="quem-somos_separacao">
+                <img src="./assets/img/IMAGEM 1.png" id="quem-somos_img" alt="todos contra a dengue">
+                <div class="quem-somos_paragrafo">
+                    <p class="paragrafo1">SOMOS UM PROJETO QUE VISA AUMENTAR
+                        A
+                        SEGURANÇA E BEM-ESTAR DA POPULAÇÃO DE FRANCISCO
+                        BELTRÃO
+                        UTILIZANDO INFORMAÇÕES E AS ENVIANDO PARA A
+                        PREFEITURA.
+                    </p>
+                    <p class="paragrafo2">MAS TAMBÉM MOSTRANDO PARA A
+                        POPULAÇÃO, AS ÁREAS DE RISCO E MAIS AFETADAS.</p>
                 </div>
-            </section>
+            </div>
+        </section>
 
-            <section id="formulario">
-                <h1 class="titulo">FORMULÁRIO</h1>
-                <div id="formulario_separacao">
+        <section id="formulario">
+            <h1 class="titulo_formulario">FORMULÁRIO</h1>
+            <div id="formulario_separacao">
                 <form action="" method="post" enctype="application/x-www-form-urlencoded">
                     <div class="name">
                         <label for="fname">NOME:</label>
@@ -62,10 +61,11 @@
                         <label for="name">NÚMERO DA CARTEIRINHA DO SUS:</label>
                         <input type="text">
                         <p class="formulario_p">número da carteirinha do sus</p>
-                        </div>
+                    </div>
                 </form>
-                </div>
-            </section>
-        </main>
-    </body>
+            </div>
+        </section>
+    </main>
+</body>
+
 </html>
