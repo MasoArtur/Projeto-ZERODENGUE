@@ -1,0 +1,47 @@
+.section_mostrar{
+    border-radius: 1vw;
+    background-color: blue;
+    height: 100%;
+    width: 60%;
+    background-image:url(./../assets/img/IMAGEM\ 1.png);
+    background-repeat: no-repeat;
+}
+
+.nome{
+    margin-top: 6vh;
+    margin-left: 2vw;
+
+    height: 50%;
+    width: 20%;
+    background-color: aquamarine;
+
+}
+
+.titulo_mostrar{
+    color: beige;
+}
+
+.sobretitulo_mostrar{
+    color: beige;
+}
+
+.cor_frase{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 70%;
+    height: 40%;
+    background-color: brown;
+}
+
+#frasezinha{
+    margin-top: 14vh;
+
+    display: flex;
+    flex-direction: row;
+
+    height: 10%;
+    background-color: cornflowerblue;
+}
