@@ -1,71 +1,69 @@
 <!DOCTYPE html>
 <html lang="PT-BR">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ZERODENGUE</title>
+    <title>Login</title>
     <link rel="stylesheet" href="./styles/index.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header id="headerR">
-        <div class="btn_cabecalho">
-            <button class="botoesHeader" id="btn_campanha">Campanha</button>
-            <button class="botoesHeader" id="btn_prevencao">Prevenção</button>
-            <button class="botoesHeader" id="btn_mapa">Mapa</button>
-            <button class="botoesHeader" id="btn_quem_somos">Quem Somos</button>
-            <button class="botoesHeader" id="btn_formulario"><a href="#formulario">Formulário<a></button>
-        </div>
-    </header>
-
     <main>
-
-        <section id="quem-somos">
-            <h1 class="titulo_quem_somos">QUEM SOMOS</h1>
-            <div class="quem-somos_separacao">
-                <img src="./assets/img/IMAGEM 1.png" id="quem-somos_img" alt="todos contra a dengue">
-                <div class="quem-somos_paragrafo">
-                    <p class="paragrafo1">SOMOS UM PROJETO QUE VISA AUMENTAR
-                        A
-                        SEGURANÇA E BEM-ESTAR DA POPULAÇÃO DE FRANCISCO
-                        BELTRÃO
-                        UTILIZANDO INFORMAÇÕES E AS ENVIANDO PARA A
-                        PREFEITURA.
-                    </p>
-                    <p class="paragrafo2">MAS TAMBÉM MOSTRANDO PARA A
-                        POPULAÇÃO, AS ÁREAS DE RISCO E MAIS AFETADAS.</p>
-                </div>
+        <section class="section_mostrar">
+            <div class="nome">
+                <h1 class="titulo_mostrar">ZERO</h1>
+                <h3 class="sobretitulo_mostrar">DENGUE</h3>
+            </div>
+            <div class="cor_frase">
+                <div class="verde_agua"></div>
+                <div class="vermelho"></div>
+                <div class="verde_escuro"></div>
+                <div id="frasezinha">Proteja-se</div>
             </div>
         </section>
-
-        <section id="formulario">
-            <h1 class="titulo_formulario">FORMULÁRIO</h1>
-            <div id="formulario_separacao">
-                <form action="" method="post" enctype="application/x-www-form-urlencoded">
-                    <div class="name">
-                        <label for="fname">NOME:</label>
-                        <input type="text" id="fname" name="fmane">
-                        <p class="formulario_p">nome</p>
+        <section class="section_login">
+            <div class="imagem_topo">
+                <img class="icone_foto" src="" alt="">
+            </div>
+            <div class="frases_login">
+                <h1 id="titulo_login">LOGIN</h1>
+                <p id="paragrafo_login">Previna-se</p>
+            </div>
+            <div class="logar">
+                <i></i>
+                <form action="" method="get" class="formulario">
+                    <div>
+                        <input type="email" id="email">
                     </div>
-                    <div class="sobrenome">
-                        <label for="lname">SOBRENOME:</label>
-                        <input type="text" id="lname" name="lmane">
-                        <p class="formulario_p">sobrenome</p>
-                    </div>
-                    <div class="sus">
-                        <label for="name">NÚMERO DA CARTEIRINHA DO SUS:</label>
-                        <input type="text">
-                        <p class="formulario_p">número da carteirinha do sus</p>
+                    <div class="email_senha"> 
+                        <i></i>
+                        <input type="password" id="senha">
+                        <p class="senha_esquecida">Esqueceu sua senha?</p>
+                        <i></i>
                     </div>
                 </form>
             </div>
+            <div class="botao_entrar">
+                <button id="btn_conta"></button>
+            </div>
+            <div id="frase_entrar">
+                <p>ou</p>
+            </div>
+            <div class="botoes_logar">
+                <button id="btn_google">
+                    <i></i>
+                </button>
+                <button id="btn_iphone">
+                    <i></i>
+                </button>
+                <button id="btn_microsoft">
+                    <i></i>
+                </button>
+            </div>
+            <div id="frase_final">
+                <p>Não tem uma conta? <a href="">Crie uma aqui</a></p>
+            </div>
+
         </section>
     </main>
 </body>
-
 </html>

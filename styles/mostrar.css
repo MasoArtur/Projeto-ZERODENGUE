@@ -3,7 +3,7 @@
     background-color: blue;
     height: 100%;
     width: 60%;
-    background-image:url(./../assets/img/IMAGEM\ 1.png);
+    background-image:url(https://www.timbo.sc.gov.br/wp-content/uploads/2020/02/DENGUE-2020-02.jpg);
     background-repeat: no-repeat;
 }
 
@@ -13,16 +13,18 @@
 
     height: 50%;
     width: 20%;
-    background-color: aquamarine;
-
 }
 
 .titulo_mostrar{
-    color: beige;
+    color: var(--fonteBtn);
+    font-family: var(--fonteTitulo-login);
+    font-size: 3vh;
 }
 
 .sobretitulo_mostrar{
-    color: beige;
+    color: var(--fonteBtn);
+    font-family: var(--fonteSubtitulo-login);
+    font-size: 3vh;
 }
 
 .cor_frase{
@@ -31,17 +33,44 @@
     justify-content: space-between;
     align-items: center;
 
+    margin-left: 2vh;
+
     width: 70%;
     height: 40%;
-    background-color: brown;
+    /*background-color: brown;*/
+}
+
+.verde_agua{
+    margin-left: 3vh;
+    width: 0.5vh;
+    height: 20vh;
+    background-color: #599FAE;
+}
+
+.vermelho{
+    width: 0.5vh;
+    height: 20vh;
+    background-color: #be4e4e;
+}
+
+.verde_escuro{
+    width: 0.5vh;
+    height: 20vh;
+    background-color: #276161;
 }
 
 #frasezinha{
-    margin-top: 14vh;
+    font-size: 7vh;
+    font-family: var(--frase-login);
+
+    color: rgb(5, 27, 45);
+
+    margin-right: 3.5vw;
+    margin-top: 0vh;
 
     display: flex;
     flex-direction: row;
 
-    height: 10%;
-    background-color: cornflowerblue;
+    height: 50%;
+
 }
