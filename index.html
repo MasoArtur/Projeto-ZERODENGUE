@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
     <link rel="stylesheet" href="./styles/index.css">
+    <script src="https://kit.fontawesome.com/b39bb922a1.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <main>
@@ -20,9 +21,11 @@
                 <div id="frasezinha">Proteja-se</div>
             </div>
         </section>
+
+
         <section class="section_login">
             <div class="imagem_topo">
-                <img class="icone_foto" src="" alt="">
+                <i class="fa-solid fa-mosquito" id="topo_img"></i>
             </div>
             <div class="frases_login">
                 <h1 id="titulo_login">LOGIN</h1>
@@ -30,33 +33,34 @@
             </div>
             <div class="logar">
                 <i></i>
-                <form action="" method="get" class="formulario">
-                    <div>
+                <form action="" method="get" >
+                    <div class="formulario">
+                        <i class="fa-solid fa-envelope"></i>
                         <input type="email" id="email">
                     </div>
                     <div class="email_senha"> 
-                        <i></i>
+                        <i class="fa-solid fa-key"></i>
                         <input type="password" id="senha">
-                        <p class="senha_esquecida">Esqueceu sua senha?</p>
-                        <i></i>
+                        <i class="fa-solid fa-eye"></i>
                     </div>
+                    <p class="senha_esquecida">Esqueceu sua senha?</p>
                 </form>
             </div>
             <div class="botao_entrar">
-                <button id="btn_conta"></button>
+                <button id="btn_conta">Entrar</button>
             </div>
             <div id="frase_entrar">
-                <p>ou</p>
+                <p class="p_entrar">ou</p>
             </div>
             <div class="botoes_logar">
-                <button id="btn_google">
-                    <i></i>
+                <button class="logar" id="btn_google">
+                    <i class="fa-brands fa-google"></i>
                 </button>
-                <button id="btn_iphone">
-                    <i></i>
+                <button class="logar" id="btn_iphone">
+                    <i class="fa-brands fa-apple"></i>
                 </button>
-                <button id="btn_microsoft">
-                    <i></i>
+                <button class="logar" id="btn_microsoft">
+                    <i class="fa-brands fa-windows"></i>
                 </button>
             </div>
             <div id="frase_final">
