@@ -8,7 +8,7 @@
     width: 40%;
     height: 100%;
     
-    background-color: blueviolet;
+    background-color: rgb(66, 58, 125);
     border-radius:1vw;
 }
 
@@ -35,14 +35,14 @@
 }
 
 #titulo_login{
-    color: rgb(35, 83, 125);
+    color: rgb(35, 113, 181);
     /*color: var(--fonteBtn);*/
     font-family: var(--fonteTitulo-login);
     font-size: 2vh;
 }
 
 #paragrafo_login{
-    color: rgb(35, 83, 125);
+    color: rgb(35, 113, 181);
     /*color: var(--fonteBtn);*/
     font-family: var(--fonteSubtitulo-login);
     font-size: 1,6vh;
@@ -157,6 +157,14 @@ form{
     margin-bottom: 1vh;
 }
 
+#link{
+    color: aliceblue;
+}
+
+#link:hover{
+    color: aqua;
+}
+
 .botoes_logar{
     width: 80%;
 
@@ -165,13 +173,13 @@ form{
     font-family: var(--frase-login);
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 
     font-size: 0vh; 
     border-radius: 0vw;
 
-    margin-left: 3vw;
+    margin-left: 2.5vw;
 
 }
 
