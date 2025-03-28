@@ -1,3 +1,4 @@
+@import url(./index.css);
 
 .section_login{
     display: flex;
@@ -9,7 +10,7 @@
     height: 100%;
     
     background-color: #276161;
-    border-radius:2vw;
+    border-radius:0.5vw;
 }
 
 .frases_login{
@@ -55,7 +56,6 @@
     font-size: 2vh;
 }
 
-
 #titulo_login{
     color: rgb(35, 113, 181);
     /*color: var(--fonteBtn);*/
@@ -70,26 +70,52 @@
     font-size: 1,6vh;
 }
 
-form{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-
-.formulario{
+.input{
     width: 60%;
+
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
+
     border-bottom: 1px solid rgba(255, 255, 255, 0.6); /* Branco com leve transparência, peguei do gpt pq não consegui */
-    margin-bottom: 4vh;
+    margin-bottom: 0vh;
+    margin-top: 2vh;
 }
 
-.formulario i{
-    font-size: 2.4vh;
+.input i{
+    font-size: 2vh;
     border-radius: 2vw solid aliceblue;
     color: aliceblue;
+}
+
+
+
+#nome_usuario{
+    width: 80%;
+    background: transparent;
+    border: 0;
+    pointer-events: auto;
+    
+    border: 0;
+    outline: 0;
+}
+
+#telefone_usuario{
+    width: 80%;
+    background: transparent;
+    border: 0;
+    pointer-events: auto;
+    
+    border: 0;
+    outline: 0; 
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #email{
@@ -100,21 +126,6 @@ form{
     
     border: 0;
     outline: 0;
-}
-
-.email_senha{
-    width: 60%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;   
-    border-bottom: 1px solid rgba(255, 255, 255, 0.6); /* Branco com leve transparência, peguei do gpt pq não consegui */
-}
-
-.email_senha i{
-    font-size: 2.4vh;
-    border-radius: 2vw solid aliceblue;
-    color: aliceblue;   
 }
 
 #senha{

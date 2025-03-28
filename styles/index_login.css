@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: rgb(78, 67, 52);
+    background-color: rgb(52, 74, 78);
 
     width: 100vw;
     height: 96vh;
@@ -23,7 +23,6 @@ main{
     height: 70%;
     border-radius: 5vw;
     
-    background-color: black;
 
     display: flex;
     flex-direction: row;
