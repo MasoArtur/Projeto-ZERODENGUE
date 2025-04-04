@@ -6,6 +6,7 @@
     <title>Login</title>
     <link rel="stylesheet" href="./styles/index.css">
     <script src="https://kit.fontawesome.com/b39bb922a1.js" crossorigin="anonymous"></script>
+    <script src="./controller/login_controller.js"></script>
 </head>
 <body>
     <main>
@@ -44,13 +45,13 @@
                     <div class="email_senha"> 
                         <i class="fa-solid fa-key"></i>
                         <input type="password" id="senha">
-                        <i class="fa-solid fa-eye"></i>
+                        <i onclick="trocarOlharSenha()" class="fa-solid fa-eye" id="olho_senha"></i>
                     </div>
                     <p class="senha_esquecida">Esqueceu sua senha?</p>
                 </form>
             </div>
             <div class="botao_entrar">
-                <button id="btn_conta">Entrar</button>
+                <button onclick="verificarLogin()" id="btn_conta">Entrar</button>
             </div>
             <div id="frase_entrar">
                 <p class="p_entrar">ou</p>
