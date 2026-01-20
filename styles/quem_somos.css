@@ -1,10 +1,12 @@
+@import url(./index.css);
+
 #quem-somos{
     background-color: #4B685D;
-    padding-bottom: 8vh;
+    padding-bottom: 2vh;
 }
 
 #quem-somos_img{
-    padding-left: 32vh;
+    padding-left: 02vh;
     border-radius: 8px;
 }
 

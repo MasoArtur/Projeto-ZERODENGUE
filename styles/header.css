@@ -1,6 +1,6 @@
 header{
-    width: 100vw;
-    height: 9vh;
+    width: 110vw;
+    height: 12vh;
 
     display: flex;
     justify-content: center;
@@ -12,9 +12,8 @@ header{
 }
 
 .botoesHeader{
-    width: 12.5vw;
-    height: 5vh;
-
+    width: 20vw;
+    height: 7vh;
     text-align: center;
 }
 

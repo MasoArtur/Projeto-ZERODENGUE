@@ -12,12 +12,13 @@ function verificarLogin(){
 
     if(email_digitado == email_correto){
         if(senha_digitada == senha_correto){
-            alert("LOGIN FEITO COM SUCESSO")
+            alert("LOGIN FEITO COM SUCESSO");
+            window.location.href = "./../pages/index_1.html";
         }else{
-            alert("senha incorreta!")
+            alert("senha incorreta!");
         }
     }else{
-        alert("email, incorreto!")
+        alert("email, incorreto!");
     }
 }
 
