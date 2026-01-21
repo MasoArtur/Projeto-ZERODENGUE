@@ -10,11 +10,11 @@
     border-radius: 8px;
 }
 
-#quem-somos{
+/* #quem-somos{
     display: grid;
     justify-content: space-around;
     grid-column-end: span 3;
-}
+} */
 
 .titulo_quem_somos{
     padding-top: 1.5vh;
@@ -26,6 +26,7 @@
 
 .quem-somos_separacao{
     display: flex;
+    flex-direction: row;
     justify-content: space-around;
     padding-left: 2vh;
     justify-items: flex-start;
