@@ -1,12 +1,14 @@
 header{
     width: 100vw;
-    height: 20vh;
+    height: 10vh;
 
     display: flex;
     justify-content: center;
     align-items: center;
     color: black;
 
+    position: fixed;
+    top: 0;
     text-align: center;
     background-color: #4B685D;
 }

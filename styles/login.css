@@ -71,6 +71,7 @@
 }
 
 form{
+    padding: 2vh;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -92,6 +93,15 @@ form{
     color: aliceblue;
 }
 
+.input{
+    padding: 1vh;
+    width: 100%;
+}
+
+ #senha_i{
+    padding-right: 2vh;
+} 
+
 #email{
     width: 80%;
     background: transparent;
@@ -103,7 +113,7 @@ form{
 }
 
 .email_senha{
-    width: 60%;
+    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -113,19 +123,23 @@ form{
 
 .email_senha i{
     font-size: 2.4vh;
-    border-radius: 2vw solid aliceblue;
-    color: aliceblue;   
+    border-radius: 2vw solid rgb(65, 78, 88); 
+    color: aliceblue;
 }
 
 #senha{
-    width: 70%;
+    width: 60%;
     background: transparent;
     border: 0;
     pointer-events: auto;
-    
-    border: 0;
     outline: 0;
 }
+
+/* #confirmar_senha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+} */
 
 .botao_entrar{
     display: flex;

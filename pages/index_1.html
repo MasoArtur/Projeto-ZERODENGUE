@@ -16,35 +16,36 @@
 <body>
     <header id="header">
         <div class="btn_cabecalho">
-            <button class="botoesHeader" id="btn_quem_somos">Quem Somos</button>
-            <button class="botoesHeader" id="btn_campanha">Campanha</button>
-            <button class="botoesHeader" id="btn_formulario">Formulário</button>
-            <button class="botoesHeader" id="btn_prevencao">Prevenção</button>
-            <button class="botoesHeader" id="btn_mapa">Mapa</button>
+            <button class="botoesHeader" onclick="trocarBanner(0)" id="btn_quem_somos">Quem Somos</button>
+            <button class="botoesHeader" onclick="trocarBanner(1)" id="btn_campanha">Campanha</button>
+            <button class="botoesHeader" onclick="trocarBanner(2)" id="btn_formulario">Formulário</button>
+            <button class="botoesHeader" onclick="trocarBanner(3)" id="btn_prevencao">Prevenção</button>
+            <button class="botoesHeader" onclick="trocarBanner(4)" id="btn_mapa">Mapa</button>
         </div>
     </header>
 
-    <main>
-        <section id="quem-somos">
-            <h1 class="titulo_quem_somos">QUEM SOMOS</h1>
-            <div class="quem-somos_separacao">
-                <img src="./../assets/img/IMAGEM 1.png" id="quem-somos_img" alt="todos contra a dengue">
-                <div class="quem-somos_paragrafo">
-                    <p class="paragrafo1">SOMOS UM PROJETO QUE VISA AUMENTAR
-                        A
-                        SEGURANÇA E BEM-ESTAR DA POPULAÇÃO DE FRANCISCO
-                        BELTRÃO
-                        UTILIZANDO INFORMAÇÕES E AS ENVIANDO PARA A
-                        PREFEITURA.
-                    </p>
-                    <p class="paragrafo2">MAS TAMBÉM MOSTRANDO PARA A
-                        POPULAÇÃO, AS ÁREAS DE RISCO E MAIS AFETADAS.</p>
+    <main id="main">
+        <nav id="banners">
+            <section class="section" id="quem-somos">
+                <h1 class="titulo_quem_somos">QUEM SOMOS</h1>
+                <div class="quem-somos_separacao">
+                    <img src="./../assets/img/IMAGEM 1.png" id="quem-somos_img" alt="todos contra a dengue">
+                    <div class="quem-somos_paragrafo">
+                        <p class="paragrafo1">SOMOS UM PROJETO QUE VISA AUMENTAR
+                            A
+                            SEGURANÇA E BEM-ESTAR DA POPULAÇÃO DE FRANCISCO
+                            BELTRÃO
+                            UTILIZANDO INFORMAÇÕES E AS ENVIANDO PARA A
+                            PREFEITURA.
+                        </p>
+                        <p class="paragrafo2">MAS TAMBÉM MOSTRANDO PARA A
+                            POPULAÇÃO, AS ÁREAS DE RISCO E MAIS AFETADAS.</p>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <section id="Tentativa">
-            <header>
+            <section class="section" id="Tentativa">
+                <!-- <header>
                 <div class="btn_cabecalho">
             <button class="botoesHeader" id="btn_quem_somos2">Quem Somos</button>
             <button class="botoesHeader" id="btn_campanha">Campanha</button>
@@ -52,17 +53,17 @@
             <button class="botoesHeader" id="btn_prevencao">Prevenção</button>
             <button class="botoesHeader" id="btn_mapa">Mapa</button>
                 </div>
-            </header>    
-            <div class="sla">
-            <h1>Sou o Artur e estou tentando</h1>
+            </header>     -->
+                <div class="sla">
+                    <h1>Sou o Artur e estou tentando</h1>
 
-            <p>TENHO FÉ EM MIM</p>
+                    <p>TENHO FÉ EM MIM</p>
 
-            <img src="./../assets/img/IMAGEM 1.png" alt="" id="img2">
-            </div>
-        </section>
+                    <img src="./../assets/img/IMAGEM 1.png" alt="" id="img2">
+                </div>
+            </section>
 
-        <!-- <section id="formulario">
+            <section class="section" id="formulario">
             <h1 class="titulo_formulario">FORMULÁRIO</h1>
             <div id="formulario_separacao">
                 <form action="" method="post" enctype="application/x-www-form-urlencoded">
@@ -83,8 +84,11 @@
                     </div>
                 </form>
             </div>
-        </section> -->
+        </section> 
+        </nav>
+
     </main>
-    <script src="./../controller/section_controller.js"></script>
+    <script src="./../controller/section_controller.js" defer></script>
 </body>
+
 </html>
