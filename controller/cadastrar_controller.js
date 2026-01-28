@@ -7,14 +7,11 @@
 //         senha_confirmada: "",
 //     },
 // ]
+
 const nome_usuario = document.getElementById('nome_usuario');
-
 const telefone_usuario = document.getElementById('telefone_usuario');
-
 const email_usuario = document.getElementById('email');
-
 const senha_usuario = document.getElementById('senha');
-
 const confirmar_senha = document.getElementById('confirmar_senha2');
 
 let btn_cadastrar = document.getElementById("btn_conta");
@@ -25,14 +22,43 @@ let btn_cadastrar = document.getElementById("btn_conta");
 function criarUsuario(){
     if(!nome_usuario || !telefone_usuario || !email_usuario || !senha_usuario || !confirmar_senha){
         alert("preencha todos os campos");
-    };
-
-    if(senha_usuario.value === confirmar_senha.value){
+    } else if(senha_usuario.value === confirmar_senha.value){
         alert("Senha correta, continue com o cadastro por favor!")
     } else{
         alert("A confirmação da senha não coincide com a senha");
     };
-}
+
+    console.log("senha" + "  " + senha_usuario.value + "   " + "confirmação senha" + confirmar_senha.value);
+    
+    let nome = nome_usuario.value;
+    let telefone = telefone_usuario.value;
+    let email = email_usuario.value;
+    let senha = senha_usuario.value;
+    let confirmar_senha_usuario = confirmar_senha.value;
+
+    if(nome && telefone && email && senha && confirmar_senha_usuario){
+        console.log("O Cadastro foi um sucesso!");
+        window.location.href = "./../pages/index.html";
+    }
+};
+
+function mudarOlhoSenha(inputID, icon){
+
+    let input = document.getElementById(inputID);
+
+    if(input.type === "password"){
+        input.type = "text";
+        icon.className = "fa-solid fa-eye-slash"
+    } else{
+        input.type = "password";
+        icon.className = "fa-solid fa-eye";
+    }
+
+    console.log(inputID);
+    console.log(input.type)
+};
+
+
 
 //     const icon_senha = document.getElementById('olho_senha1');
 //     const icon_confirmar_senha = document.getElementById("olho_senha2");
@@ -61,7 +87,7 @@ function criarUsuario(){
 // }
 
 // ideia que eu tive com o gpt
-let cadastrar_senha = document.getElementById("senha");
+/*let cadastrar_senha = document.getElementById("senha");
 let cadastrar_confirmar_senha = document.getElementById("confirmar_senha2");
 
 const icon_senha1 = document.getElementById("olho_senha1");
@@ -84,3 +110,4 @@ function mudarOlhoSenha(inputID, icon){
         icon.className = "fa-solid fa-eye";
     }
 };
+*/

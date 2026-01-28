@@ -3,7 +3,7 @@ const senha_correto = "12345678";
 
 let password_view = false;
 
-function verificarLogin(){
+export function verificarLogin(){
     let email = document.getElementById('email');
     let senha = document.getElementById('senha');
 
